@@ -1,0 +1,10 @@
+import React from 'react'
+
+export const AppRouter = () => {
+    return (
+        <div>AppRouter</div>
+    )
+}
+
+
+export default AppRouter;

@@ -4,7 +4,7 @@ export const ThemeContext = createContext();
 
 export const ThemeProvider = ({ children }: { children: ReactNode }) => {
     return (
-        <ThemeContext.Provider value={""}>
+        <ThemeContext.Provider value="TEST">
             {children}
         </ThemeContext.Provider>
     )

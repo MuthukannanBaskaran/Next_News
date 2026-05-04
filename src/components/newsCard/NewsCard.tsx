@@ -2,7 +2,6 @@ import styles from './NewsCard.module.css'
 import type { NewsArticle } from '../../type/types'
 
 export const NewsCard = (newsData: NewsArticle) => {
-  // const { a } = news
   return (
     <>
       <div className={styles.card}>

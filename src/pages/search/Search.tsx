@@ -12,6 +12,7 @@ export const Search = () => {
     const apiURL = import.meta.env.VITE_API_URL;
     const apiKey = import.meta.env.VITE_API_KEY;
     const url = `${apiURL}?q=${state}&apiKey=${apiKey}`;
+
     useEffect(() => {
         const fetchNews = async () => {
             try {
@@ -25,9 +26,9 @@ export const Search = () => {
                 console.error("Error fetching data:", error);
             }
         };
-
         fetchNews();
     }, [url]);
+
     return (
         <>
             <div className={styles.searchPage}>

@@ -3,6 +3,8 @@ import styles from './Spinner.module.css'
 
 export const Spinner = () => {
     return (
-        <div>Spinner</div>
+        <>
+            <div className="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+        </>
     )
 }
